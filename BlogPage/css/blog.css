@@ -1,0 +1,98 @@
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+a{
+  color: rgb(79, 79, 79);
+  text-decoration: none;
+}
+h1{
+  font-family: sans-serif;
+  color: rgb(79, 79, 79);
+  font-size: 13pt;
+  top: 680px;
+  left: 50px;
+  position: absolute;
+}
+h2{
+  font-family: sans-serif;
+  color: rgb(79, 79, 79);
+  font-size: 13pt;
+  top: 20px;
+  left: 50px;
+  position: absolute;
+}
+h3{
+  font-family: sans-serif;
+  color: rgb(79, 79, 79);
+  font-size: 13pt;
+  top: 16.5px;
+  left: 150px;
+  position: absolute;
+}
+#cover{
+  position: absolute;
+  margin: auto 0;
+  background-color: red;
+  height: 550px;
+  width: 100%;
+  top: 100px;
+  background-image: url(../photos/Pic2.jpg);
+  background-size: contain;
+  opacity: .7;
+}
+
+.circle{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #e68454;
+  position: absolute;
+  top: 225px;
+  left: 50px;
+  opacity: .9;
+
+}
+
+.circle2{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #e68454;
+  position: absolute;
+  top: 225px;
+  left: 1100px;
+  opacity: .9;
+
+}
+
+.circle3{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #e68454;
+  position: absolute;
+  top: 225px;
+  left: 550px;
+  opacity: .8;
+  font-size: 12pt;
+  font-family: sans-serif;
+
+}
+p{
+  font-size: 30pt;
+  font-family: sans-serif;
+  top: 70px;
+  left: 70px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+}
+#logo{
+  height: 50px;
+  width: 50px;
+  background-image: url(../photos/logo.jpeg);
+  background-size: cover;
+  top: 675px;
+  left: 1300px;
+  position: absolute;
+}
