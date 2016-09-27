@@ -54,6 +54,12 @@ h3:hover{
   opacity: .7;
 }
 
+#cover:hover{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+  transition: .6s ease-in-out;
+}
+
 .circle{
   height: 300px;
   width: 300px;
@@ -74,14 +80,16 @@ h1:hover{
 }
 
 .circle:hover{
-  color: #248cc1;
+  /*color: #248cc1;*/
   transition:.2s ease-in-out;
-  transform: scale(1.2);
+  transform: rotate(-3deg) ;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.49);
 
 }
 .circle2:hover{
   color: rgb(64, 130, 163);
-  transform: scale(1.2);
+  transform: rotate(3deg) ;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.49);
 }
 .circle3:hover{
   color: rgb(64, 130, 163);
