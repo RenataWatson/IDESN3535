@@ -55,7 +55,7 @@ h3:hover{
 }
 
 #cover:hover{
-  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
   transition: .6s ease-in-out;
 }
