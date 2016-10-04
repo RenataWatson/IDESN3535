@@ -44,6 +44,61 @@
     transform: rotate(-360deg);
   }
 
+  #container{
+    top: 300px;
+    left: 400px;
+    width: 900px;
+    height: 300px;
+    // background-color: red;
+    position: absolute;
+    z-index: 50;
+  }
+  p2{
+    font-size: 8pt;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    text-align-last: left;
+  }
+
+  #circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #e68454;
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    opacity: .8;
+    font-size: 12pt;
+    font-family: sans-serif;
+    transition:.2s ease-in-out;
+    z-index: 10;
+  }
+
+  #background-image{
+  height: 750px;
+  width: 100%;
+  background-color: red;
+  background-image: url(photos/Pic4.jpg);
+  position: absolute;
+  transition: .5s ease-in-out;
+  z-index: -30;
+  }
+  #background-image:hover{
+    filter:blur(2px);
+    transition: .5s ease-in-out;
+    z-index: -30px;
+  }
+
+  #rectangle{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    z-index: -20;
+  }
+
   #cover{
     position: absolute;
     margin: auto 0;
@@ -51,7 +106,7 @@
     height: 550px;
     width: 100%;
     top: 100px;
-    background-image: url(../photos/Pic2.jpg);
+    background-image: url(photos/Pic2.jpg);
     background-size: contain;
     opacity: .7;
   }
@@ -148,6 +203,9 @@
   }
 }
 
+
+
+
 @media screen and (max-width: 1000px){
   body{
     max-width: 100%;
@@ -201,7 +259,7 @@
     height: 650px;
     width: 100%;
     top: 75px;
-    background-image: url(../photos/Pic2.jpg);
+    background-image: url(photos/Pic2.jpg);
     background-size: contain;
     opacity: .7;
   }
@@ -295,6 +353,59 @@
   #logo:hover{
     transition: .2s ease-in-out;
     transform: scaleX(-1);
+  }
+  #container{
+    top: 250px;
+    left: 400px;
+    width: 500px;
+    height: 300px;
+    // background-color: red;
+    position: absolute;
+    z-index: 50;
+  }
+  #circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #e68454;
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    opacity: .8;
+    font-size: 12pt;
+    font-family: sans-serif;
+    transition:.2s ease-in-out;
+    z-index: 10;
+  }
+  p2{
+    font-size: 8pt;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    text-align-last: left;
+  }
+
+  #background-image{
+  height: 750px;
+  width: 100%;
+  background-color: red;
+  background-image: url(photos/Pic4.jpg);
+  position: absolute;
+  transition: .5s ease-in-out;
+  z-index: -30;
+  }
+  #background-image:hover{
+    filter:blur(2px);
+    transition: .5s ease-in-out;
+    z-index: -30px;
+  }
+
+  #rectangle{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    z-index: -20;
   }
 }
 
@@ -404,8 +515,75 @@
     height: 1000px;
     width: 100%;
     top: 100px;
-    background-image: url(../photos/Pic2.jpg);
+    background-image: url(photos/Pic2.jpg);
     background-size: contain;
     opacity: .7;
+  }
+
+  #container{
+    top: 425px;
+    left: 50px;
+    width: 600px;
+    height: 300px;
+    // background-color: red;
+    position: absolute;
+    z-index: 50;
+  }
+  #circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #e68454;
+    position: absolute;
+    top: 100px;
+    left: 175px;
+    opacity: .8;
+    font-size: 12pt;
+    font-family: sans-serif;
+    transition:.2s ease-in-out;
+    z-index: 10;
+  }
+  #whitecircle{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    font-size: 12pt;
+    font-family: sans-serif;
+    transition:.2s ease-in-out;
+    z-index: 8;
+  }
+  p2{
+    font-size: 8pt;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    text-align-last: left;
+  }
+
+  #background-image{
+  height: 750px;
+  width: 100%;
+  background-color: red;
+  background-image: url(photos/Pic4.jpg);
+  position: absolute;
+  transition: .5s ease-in-out;
+  z-index: -30;
+  }
+  #background-image:hover{
+    filter:blur(2px);
+    transition: .5s ease-in-out;
+    z-index: -30px;
+  }
+
+  #rectangle{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    z-index: -20;
   }
 }
