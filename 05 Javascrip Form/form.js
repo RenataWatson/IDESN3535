@@ -10,8 +10,7 @@ function validateForm()
 
     var password=document.getElementById("password");
 
-    checklength(password,10);
-    password.value.search(/(0-9)+/);
+    checknumberandlength(password,10);
 
     var re_enter_password=document.getElementById("re_enter_password");
     re_enter_password.focus();
@@ -19,8 +18,8 @@ function validateForm()
 
 }
 function checklength(wordtocheck, minimumlength) {
-    if (wordtocheck.value.length>minimumlength){
-        // THe first name is more than 2 characters
+    if (wordtocheck.value.length>minimumlength ){
+        // The first name is more than 2 characters
         console.log( wordtocheck.value+" is more than "+minimumlength+" characters");
         wordtocheck.className = "correct";
     // check to see if object has assaighn to it, if it does remove it
@@ -28,6 +27,19 @@ function checklength(wordtocheck, minimumlength) {
     else{
         // the first name is less than 2 charactrs
         console.log( wordtocheck.value+" is less than "+minimumlength+" characters");
+        wordtocheck.className = "error";
+    }
+}
+function checknumberandlength(wordtocheck, minimumlength) {
+    if ( /\d/.test(wordtocheck.value) && (wordtocheck.value.length>minimumlength)){
+        // The first name is more than 2 characters
+        console.log( wordtocheck.value+" contains number ");
+        wordtocheck.className = "correct";
+    // check to see if object has assaighn to it, if it does remove it
+    }
+    else{
+        // the first name is less than 2 charactrs
+        console.log( wordtocheck.value+" does not contain number ");
         wordtocheck.className = "error";
     }
 }
