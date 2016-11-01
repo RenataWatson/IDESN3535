@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CSS3 in-class demo</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+<!--        <link rel="stylesheet" href="main.css">-->
+        <style type="text/css">
+
+            /*// DEFAULT
+            // TYPEFACE
+            // COLOR PALETTE
+            // FONT-SIZE*/
+
+            body {
+                font-family: Helvetica ;
+                line-height: 1.5em ;
+                background-color: white ;
+            }
+            .box{
+              height: 200px;
+              width: 200px;
+              background-color: green;
+              position: relative;
+              float: left;
+              -webkit-transition: all 1s ease;
+              -moz-transition: all 1s ease;
+              -o-transition: all 1s ease;
+              -ms-transition: all 1s ease;
+              transition: all 1s ease;
+            }
+            @media screen and (max-width: 1200px){
+                body{
+
+                  /*background-color: aqua;*/
+                }
+                .box{
+                  height: 200px;
+                  width: 200px;
+                  background-color: red;
+                  position: relative;
+                  float: left;
+                }
+            }
+
+            @media screen and (max-width: 1000px){
+                body{
+                  /*background-color: green;*/
+                  font-size: 2em;
+                }
+                .box{
+                  height: 200px;
+                  width: 200px;
+                  background-color: pink;
+                  position: relative;
+                  float: left;
+
+                ul{
+                  display: none;
+                }
+            }
+              @media screen and (max-width: 900px){
+                body{
+                  /*background-color: purple;*/
+                  font-size: 2em;
+                }
+                .box{
+                  height: 200px;
+                  width: 200px;
+                  background-color: orange;
+                  position: relative;
+                  float: left;
+              }
+              @media screen and (max-width: 600px){
+                body{
+                  /*background-color: yellow;*/
+                  font-size: 2em;
+                }
+                .box{
+                  height: 200px;
+                  width: 200px;
+                  background-color: grey;
+                  position: relative;
+                  float: left;
+              }
+              @media screen and (max-width: 400px){
+                body{
+                  /*background-color: red;*/
+                  font-size: 2em;
+                }
+                .box{
+                  height: 200px;
+                  width: 200px;
+                  background-color: black;
+                  position: relative;
+                  float: left;
+              }
+            //OVER-RIDE
+
+
+            kbd{
+              color: red;
+            }
+            ul kbd{
+              color: green;
+            }
+            ul > li > kbd{
+              color: purple;*/
+            }
+
+        </style>
+    </head>
+    <body>
+      <div class="box"></div>
+    </body>
