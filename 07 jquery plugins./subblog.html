@@ -3,19 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Subblog</title>
-    <link rel="j" href="nav.js" media="screen" title="no title">
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
     <link rel="stylesheet" href="responsive_design.min.css" media="screen" title="no title">
   </head>
   <body>
     <h2><a href="http://www.bagelsaurus.com/#welcome">Home</h2>
     <h3><a href="responsive_design_webpage.html">Blog</a></h3>
-
-    <h5 class="nav_handle">Menu</h5>
-<nav class="navigation" data-navigation-handle=".nav_handle">
-	<a href="#">One</a>
-	<a href="#">Two</a>
-	<a href="#">Three</a>
-</nav>
 
     <div id="whitecircle"></div>
     <div id="circle"><p> Blalal blog post TITLE</p></div>
@@ -27,9 +20,23 @@ Man braid leggings YOLO tumblr literally intelligentsia, banjo chillwave you pro
 
     <div id="background-image"></div>
     <div id="rectangle"></div>
-<script type="text/javascript">
-  $(".navigation").navigation();
+    <div id="nav_bar"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#nav_bar').click(function(){
+          $('h2').slideDown(800).fadeIn(800).toggleClass('slide');
+          $('h3').slideDown(800).fadeIn(800).toggleClass('slide');
+        });
+      });
+
+      // $(document).ready(function(){
+      //   $('.RenataWatson').hover(function(){
+      //     $('.About').slideDown(800).fadeIn(500).toggleClass('slide');
+      //   });
+
 </script>
+
 
   </body>
 </html>
