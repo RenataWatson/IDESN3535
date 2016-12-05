@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Renata Watson || Board</title>
+    <link rel="stylesheet" href="dashboard.css" media="screen">
+    <link rel="stylesheet" href="enlarge.css">
+  </head>
+  <body>
+
+    <!-- <div class="whitebar"></div>
+    <a href= "index.html"><div class="home_button"></div></a>
+    <a href="dashboard.html"><div class="profilepic"><p>Renata Watson <br>Lorem ipsum googlie google!</br></p></div></a> -->
+
+    <!-- <div class="icons">
+      <a href="upload.html"><div id="upload"></div></a>
+      <a href="graph.html"><div id="graph"></div></a>
+      <a href="discover.html"><div id="discover"></div></a>
+      <a href="share.html"><div id="share"></div></a>
+    </div> -->
+
+    <div class="pictures">
+
+      <div id="eyes"></div>
+      <div id="palm"></div>
+      <div id="plants"></div>
+      <div id="taza"></div>
+      <div id="ballet"></div>
+      <div id="dance"></div>
+      <div id="felt"></div>
+      <div id="finley_window"></div>
+      <div id="moon"></div>
+      <div id="nude"></div>
+      <div id="hands"></div>
+      <div id="face"></div>
+      <div id="color"></div>
+      <div id="tree"></div>
+      <div id="painting"></div>
+      <div id="sketch"></div>
+
+<!-- trigger the model -->
+      <img id="myImg" src="photos/eyes.jpg" alt="My Eyes by me" width="359 px"></img>
+
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">×</span>
+        <img class="modal-content" id="img_pop_up">
+        <div id="caption"></div>
+      </div>
+
+
+
+
+    </div>
+
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img_pop_up");
+    var captionText = document.getElementById("caption");
+
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,295 @@
+body{
+  margin: 0;
+}
+
+a{
+  color: black
+}
+
+.whitebar{
+  height: 150px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  position: fixed;
+  z-index: 10000;
+}
+.home_button{
+  height: 50px;
+  width: 210px;
+  background-image: url('photos/home.jpg');
+  background-size: cover;
+  z-index: 12000;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+.profilepic{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  position: fixed;
+  left: 550px;
+  top: 25px;
+  z-index: 10001;
+  background-image: url('photos/profile.jpg');
+  background-size: cover;
+}
+
+p{
+  z-index: 10001;
+  position: fixed;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: bold;
+  left: 675px;
+  top: 40px;
+}
+
+.icons{
+  background-color: pink;
+  height: 50px;
+  width: 200px;
+  left: 1100px;
+  top: 40px;
+  position: fixed;
+  z-index: 10001;
+}
+
+#upload{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/upload.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+#graph{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/graph.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+#discover{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/discover.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+#share{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/share.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+
+.pictures{
+  top: 170px;
+  height: 800px;
+  width: 100%;
+  position: absolute;
+}
+
+#moon{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/moon.jpg');
+}
+#nude{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/nude.jpg');
+}
+#hands{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/hands.jpg');
+}
+#face{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/face.jpg');
+}
+#color{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/color.jpg');
+}
+#tree{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/tree.jpg');
+}
+#painting{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/painting.jpg');
+}
+#sketch{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/sketch.jpg');
+}
+#ballet{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/ballet.jpg');
+}
+#dance{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/dance.jpg');
+}
+#felt{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/felt.jpg');
+}
+#finley_window{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/finley_window.jpg');
+}
+#eyes{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/eyes.jpg');
+}
+#palm{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/plam.jpg');
+}
+#plants{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/plants.jpg');
+}
+#taza{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/taza.jpg');
+}
+
+#sketch:hover{
+  filter: blur(2px);
+}
+#moon:hover{
+  filter: blur(2px);
+}
+#nude:hover{
+  filter: blur(2px);
+}
+#hands:hover{
+  filter: blur(2px);
+}
+#face:hover{
+  filter: blur(2px);
+}
+#color:hover{
+  filter: blur(2px);
+}
+#tree:hover{
+  filter: blur(2px);
+}
+#painting:hover{
+  filter: blur(2px);
+}
+#eyes:hover{
+  filter: blur(2px);
+}
+#palm:hover{
+  filter: blur(2px);
+}
+#plants:hover{
+  filter: blur(2px);
+}
+#taza:hover{
+  filter: blur(2px);
+}
+#ballet:hover{
+  filter: blur(2px);
+}
+#dance:hover{
+  filter: blur(2px);
+}
+#felt:hover{
+  filter: blur(2px);
+}
+#finley_window:hover{
+  filter: blur(2px);
+}

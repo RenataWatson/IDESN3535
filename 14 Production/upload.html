@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Upload</title>
+    <script src="./path/to/dropzone.js"></script>
+
+    <link rel="stylesheet" href="upload.css">
+  </head>
+  <body>
+    <div class="background"></div>
+    <!-- <form action="" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" />
+    </form> -->
+
+    <script type="text/javascript">
+    Dropzone.options.myAwesomeDropzone = {
+paramName: "file", // The name that will be used to transfer the file
+maxFilesize: 2, // MB
+accept: function(file, done) {
+  if (file.name == "justinbieber.jpg") {
+    done("Naha, you don't.");
+  }
+  else { done(); }
+}
+};
+    </script>
+
+  </body>
+</html>

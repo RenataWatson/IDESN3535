@@ -1,0 +1,149 @@
+body{
+  margin: auto 0;
+}
+.me{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 650px;
+  top: 40px;
+}
+
+
+
+
+
+.people{
+  /*background-color: red;*/
+  width: 100%;
+  height: 600px;
+  top: 170px;
+  position: absolute;
+
+}
+
+#rectangle{
+  height: 170px;
+  width: 460px;
+  background-color: rgb(217, 216, 216);
+  float: left;
+  border-radius: 2%;
+  margin: 10px;
+}
+
+#profile{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  /*background-color: white;*/
+  margin-top: 30px;
+  margin-left: 30px;
+  position: absolute;
+  background-size: cover;
+}
+
+#artwork{
+  height: 170px;
+  width: 113px;
+  background-color: green;
+  float: left;
+  margin: 1px;
+  background-size: cover;
+  /*opacity: .4;*/
+}
+
+#artwork1{
+  height: 170px;
+  width: 113px;
+  background-color: green;
+  float: left;
+  margin: 1px;
+  background-size: cover;
+  background-image: url('photos/ballet.jpg');
+  /*opacity: .4;*/
+}
+#artwork2{
+  height: 170px;
+  width: 113px;
+  background-color: green;
+  float: left;
+  margin: 1px;
+  background-image: url('photos/cap.jpg');
+  background-size: cover;
+  /*opacity: .4;*/
+}
+#artwork3{
+  height: 170px;
+  width: 113px;
+  background-color: green;
+  float: left;
+  margin: 1px;
+  background-image: url('photos/dance.jpg');
+  background-size: cover;
+  /*opacity: .4;*/
+}
+#artwork4{
+  height: 170px;
+  width: 113px;
+  background-color: green;
+  float: left;
+  margin: 1px;
+  background-size: cover;
+  background-image: url('photos/donut.jpg');
+  /*opacity: .4;*/
+}
+
+
+p{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 150px;
+    margin-top: 50px;
+    z-index: 10;
+    position: absolute;
+}
+
+.icons{
+  background-color: pink;
+  height: 50px;
+  width: 200px;
+  left: 1100px;
+  top: 40px;
+  position: fixed;
+  z-index: 10001;
+}
+
+#upload{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/upload.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+#graph{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/graph.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+#discover{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/discover.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+#share{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/share.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
