@@ -5,14 +5,28 @@ body{
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-color: red;
+  /*background-color: red;*/
+  background-image: url('photos/profile.jpg');
+  background-size: cover;
   position: absolute;
   left: 650px;
   top: 40px;
 }
 
+p2{
+  font-size: 30px;
+  z-index: 200;
+  position: absolute;
+  /*left: 440px;*/
+  padding-left: 430px;
+  font-weight:bolder;
+  color: white;
+}
 
-
+/*p2:hover{
+  -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+}*/
 
 
 .people{
@@ -20,6 +34,7 @@ body{
   width: 100%;
   height: 600px;
   top: 170px;
+
   position: absolute;
 
 }
@@ -37,82 +52,319 @@ body{
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  /*background-color: white;*/
+  border-style:solid;
+  border-color: white;
+  border-width: 5px;
+  background-color: white;
   margin-top: 30px;
   margin-left: 30px;
   position: absolute;
   background-size: cover;
-}
-
-#artwork{
-  height: 170px;
-  width: 113px;
-  background-color: green;
-  float: left;
-  margin: 1px;
-  background-size: cover;
-  /*opacity: .4;*/
+  z-index: 100;
 }
 
 #artwork1{
+  background-color: red;
   height: 170px;
-  width: 113px;
-  background-color: green;
+  width: 228px;
+  z-index: 100;
   float: left;
-  margin: 1px;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/nude.jpg');
   background-size: cover;
-  background-image: url('photos/ballet.jpg');
-  /*opacity: .4;*/
+  opacity: .5;
 }
 #artwork2{
+  background-color: red;
   height: 170px;
-  width: 113px;
-  background-color: green;
+  width: 228px;
+  z-index: 100;
   float: left;
-  margin: 1px;
-  background-image: url('photos/cap.jpg');
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/moon.jpg');
   background-size: cover;
-  /*opacity: .4;*/
-}
-#artwork3{
-  height: 170px;
-  width: 113px;
-  background-color: green;
-  float: left;
-  margin: 1px;
-  background-image: url('photos/dance.jpg');
-  background-size: cover;
-  /*opacity: .4;*/
-}
-#artwork4{
-  height: 170px;
-  width: 113px;
-  background-color: green;
-  float: left;
-  margin: 1px;
-  background-size: cover;
-  background-image: url('photos/donut.jpg');
-  /*opacity: .4;*/
+  opacity: .5;
 }
 
+#artwork3{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/hands.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork4{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/money.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork5{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/cap.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork6{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/painting.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork7{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/wood.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork8{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/plants.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork9{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/pie.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork10{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/me.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork11{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/me_2.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork12{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/dance.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork13{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/donut.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork14{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/hassy.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork15{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/flower.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork16{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/klara.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork17{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/vol.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+#artwork18{
+  background-color: red;
+  height: 170px;
+  width: 228px;
+  z-index: 100;
+  float: left;
+  margin-left: 2px;
+  border-radius: 3%;
+  background-image: url('photos/sketch.jpg');
+  background-size: cover;
+  opacity: .5;
+}
+
+#artwork1:hover{
+  opacity: 1;
+}
+#artwork2:hover{
+  opacity: 1;
+}
+#artwork3:hover{
+  opacity: 1;
+}
+#artwork4:hover{
+  opacity: 1;
+}
+#artwork5:hover{
+  opacity: 1;
+}
+#artwork6:hover{
+  opacity: 1;
+}
+#artwork7:hover{
+  opacity: 1;
+}
+#artwork8:hover{
+  opacity: 1;
+}
+#artwork9:hover{
+  opacity: 1;
+}
+#artwork10:hover{
+  opacity: 1;
+}
+#artwork12:hover{
+  opacity: 1;
+}
+#artwork13:hover{
+  opacity: 1;
+}
+#artwork14:hover{
+  opacity: 1;
+}
+#artwork15:hover{
+  opacity: 1;
+}
+#artwork16:hover{
+  opacity: 1;
+}
+#artwork17:hover{
+  opacity: 1;
+}
+#artwork18:hover{
+  opacity: 1;
+}
 
 p{
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: bold;
     margin-left: 150px;
-    margin-top: 50px;
+    margin-top: 70px;
     z-index: 10;
+    color: black;
     position: absolute;
 }
 
 .icons{
-  background-color: pink;
+  /*background-color: pink;*/
   height: 50px;
   width: 200px;
   left: 1100px;
-  top: 40px;
-  position: fixed;
+  top: 50px;
+  /*position: fixed;*/
   z-index: 10001;
+  position: absolute;
+}
+
+.home_button{
+  height: 50px;
+  width: 210px;
+  background-image: url('photos/home.png');
+  background-size: cover;
+  z-index: 12000;
+  /*position: fixed;*/
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
 
 #upload{
@@ -139,11 +391,27 @@ p{
   z-index: 10001;
   float: left;
 }
-#share{
+/*#share{
   height: 50px;
   width: 50px;
   background-image: url('photos/share.jpg');
   background-size: cover;
   z-index: 10001;
   float: left;
+}*/
+
+.sarah_profile{
+  border-radius: 50%;
+}
+.james_profile{
+  border-radius: 50%;
+}
+.henry_profile{
+  border-radius: 50%;
+}
+.tiffany_profile{
+  border-radius: 50%;
+}
+.steffan_profile{
+  border-radius: 50%;
 }

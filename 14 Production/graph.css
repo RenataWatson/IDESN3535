@@ -1,0 +1,146 @@
+body{
+  margin: 0;
+}
+
+a{
+  color: black
+}
+
+.whitebar{
+  height: 150px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  /*position: fixed;*/
+  z-index: 10000;
+}
+.home_button{
+  height: 50px;
+  width: 210px;
+  background-image: url('photos/home.png');
+  background-size: cover;
+  z-index: 12000;
+  /*position: fixed;*/
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.profilepic{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  /*position: fixed;*/
+  position: absolute;
+  left: 600px;
+  top: 25px;
+  z-index: 10001;
+  background-image: url('photos/profile.jpg');
+  background-size: cover;
+}
+
+p{
+  z-index: 10001;
+  position: absolute;
+  /*position: fixed;*/
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: bold;
+  width: 200px;
+  left: 120px;
+  top: 30px;
+}
+
+.icons{
+  /*background-color: pink;*/
+  height: 50px;
+  width: 200px;
+  left: 1100px;
+  top: 50px;
+  /*position: fixed;*/
+  z-index: 10001;
+  position: absolute;
+}
+
+#upload{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/upload.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+#graph{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/graph.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+#discover{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/discover.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}
+/*#share{
+  height: 50px;
+  width: 50px;
+  background-image: url('photos/share.jpg');
+  background-size: cover;
+  z-index: 10001;
+  float: left;
+}*/
+.graphs{
+  height: 1000px;
+  width: 100%;
+  top: 200px;
+  /*background-color: blue;*/
+  position: absolute;
+}
+
+.graph1{
+  /*background-color: red;*/
+  height: 5in;
+  width: 12.2in;
+  background-image: url('photos/graph1.svg');
+  background-size: cover;
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.graph2{
+  /*background-color: red;*/
+  height: 5in;
+  width: 12in;
+  background-image: url('photos/graph2.svg');
+  background-size: cover;
+  position: absolute;
+  left: 100px;
+  top: 1050px;
+}
+
+.graph4{
+  /*background-color: red;*/
+  height: 4in;
+  width: 14in;
+  background-image: url('photos/graph4.svg');
+  background-size: cover;
+  position: absolute;
+  left: 100px;
+  top: 600px;
+}
+#line{
+  height: 2px;
+  width: 100%;
+  background-color: coral;
+  position: absolute;
+}

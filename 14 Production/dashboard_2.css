@@ -250,7 +250,19 @@ p{
   background-size: cover;
   background-image: url('photos/taza.jpg');
 }
-
+#lahki{
+  height: 359px;
+  width: 359px;
+  border-radius: 2%;
+  background-color: red;
+  float: left;
+  background-size: cover;
+  background-image: url('photos/lahki.png');
+}
+#lahki:hover{
+  filter: brightness(1.1);
+  opacity: .8;
+}
 #sketch:hover{
   filter: brightness(1.1);
   opacity: .8;

@@ -1,10 +1,162 @@
 body{
   margin: 0;
+  overflow-y: hidden; // hide vertical
+  overflow-x: hidden; // hide horizontal
 }
 
 a{
-  color: black
+  color: black;
+  text-decoration: none;
 }
+.god{
+  height: 1700px;
+  width: 100%;
+  /*background-color: red;*/
+  position: absolute;
+  opacity: .1;
+}
+.image{
+  height: 600px;
+  width: 500px;
+  background-color: pink;
+  position: absolute;
+  z-index: 1000;
+  left: 400px;
+  top:100px;
+  background-image: url('photos/lahki.png');
+  background-size: cover;
+}
+.close{
+  font-family: sans-serif;
+  color: coral;
+  font-weight: bolder;
+  font-size: 30px;
+  left: 350px;
+  top: 80px;
+  position: absolute;
+  z-index: 1000;
+}
+#Q1_text{
+  font-weight: normal;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 2000;
+  left: 940px;
+  top: 110px;
+}
+#Q2_text{
+  font-weight: normal;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 2000;
+  left: 940px;
+  top: 360px;
+}
+#Q3_text{
+  font-weight: normal;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 2000;
+  left: 940px;
+  top: 448px;
+}
+#Q4_text{
+  font-weight: normal;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 2000;
+  left: 940px;
+  top: 538px;
+}
+
+.Q1{
+height: 230px;
+width: 150px;
+background-color: rgb(205, 204, 207);
+position: absolute;
+z-index: 1000;
+left: 930px;
+top: 100px;
+
+}
+.Q2{
+height: 75px;
+width: 150px;
+background-color: rgb(205, 204, 207);
+position: absolute;
+z-index: 1000;
+left: 930px;
+top: 350px;
+
+}
+.Q3{
+  height: 75px;
+  width: 150px;
+  background-color: rgb(205, 204, 207);
+  position: absolute;
+  z-index: 1000;
+  left: 930px;
+  top: 440px;
+}
+.Q4{
+  height: 75px;
+  width: 150px;
+  background-color: rgb(205, 204, 207);
+  position: absolute;
+  z-index: 1000;
+  left: 930px;
+  top: 530px;
+}
+#submit{
+  height: 45px;
+  width: 150px;
+  left: 930px;
+  top: 620px;
+  background-color: coral;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  z-index: 1000;
+  opacity: .8;
+}
+
+#buttons{
+  height: 200px;
+  width: 120px;
+  /*background-color: red;*/
+  float: left;
+  padding-top: 40px;
+  padding-left: 20px;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 11px;
+}
+#buttons2{
+  height: 75px;
+  width: 150px;
+  /*background-color: red;*/
+  float: left;
+  padding-top: 40px;
+  padding-left: 20px;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 11px;
+}
+
+
+
 
 .whitebar{
   height: 150px;
@@ -249,69 +401,4 @@ p{
   float: left;
   background-size: cover;
   background-image: url('photos/taza.jpg');
-}
-
-#sketch:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#moon:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#nude:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#hands:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#face:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#color:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#tree:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#painting:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#eyes:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#palm:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#plants:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#taza:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#ballet:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#dance:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#felt:hover{
-  filter: brightness(1.1);
-  opacity: .8;
-}
-#finley_window:hover{
-  filter: brightness(1.1);
-  opacity: .8;
 }

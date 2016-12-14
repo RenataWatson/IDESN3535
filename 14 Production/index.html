@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title>Renatissance</title>
     <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <script type="text/javascript" src="scripts/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
 
-    <div class="home"></div>
+    <a href="dashboard.html"<div class="home"></div></a>
     <!-- <div class="signup"><p>Sign up!</p></div> -->
     <div class="images">
       <div id="box1"></div>
@@ -51,18 +53,30 @@
         </div>
     </div>
 
-<div id="container2">
+
+
+
+<div class="container2">
+  <div class="profilepic"><p3>Is this you?</p3></div>
+  <a href="dashboard.html"><div class="yes">yes</div></a>
+  <div class="no">no</div>
+</div>
+
+
+
+
+<div id="container3">
   <h3 class="form_title2">...Already have an account?</h2>
     <div id="form_name2">
         <div class="firstnameorlastname2">
             <form name="form2">
                 <div id="errorBox2"></div>
-                <input type="text" name="fullname2" value="" id ="fullname2" placeholder="Full Name2"  class="input_name2" >
+                <input type="text" name="fullname2" value="" id ="fullname2" placeholder="Full Name"  class="input_name2" >
 
 
 
                 <div id="password_form2">
-                    <input type="password" name="Password2" value="" id="password2" placeholder="Password2" class="input_password2">
+                    <input type="password" name="Password2" value="" id="password2" placeholder="Password" class="input_password2">
                 </div>
 
                 </div>
@@ -70,15 +84,9 @@
                 <div>
 
                 </div>
-                    <p id="submit" class="sign_user2" onclick="validate_form_data()">SUBMIT</p>
+                    <p id="submit" class="sign_user2" onclick="validate_form_data2()">SUBMIT</p>
             </form>
-
-
-
-
-
-
-
+            <div id="message2"></div>
 
 </div>
 

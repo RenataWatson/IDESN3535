@@ -88,7 +88,7 @@ function validate_form_data() {
                     return;
                 }
 
-              
+
 
                 if (password < 10) {
                    $("#password").focus();
