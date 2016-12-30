@@ -1,70 +1,61 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sign me up!</title>
-    <link rel="stylesheet" href="form.css" media="screen" title="no title">
-
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
 
 
-    <div id="wrapper">
+</head>
+<body>
+<div id="container">
+    <div id="container_body">
+        <div>
+            <h2 class="form_title">Sign up!</h2>
+        </div>
+        <div id="form_name">
+            <div class="firstnameorlastname">
+                <form name="form" >
+                    <div id="errorBox"></div>
+                    <input type="text" name="fullname" value="" id ="fullname" placeholder="Full Name"  class="input_name" >
 
+                    <div id="email_form">
+                        <input type="text" name="Email" value=""  placeholder="Your Email" class="input_email"  id="enteremail">
+                    </div>
 
+                    <div id="password_form">
+                        <input type="password" name="Password" value="" id="password" placeholder="Password" class="input_password">
+                    </div>
+                    <p class="favoritecolor">Pick a color:</p>
 
-<h1>Sign me up!</h1>
+                    <div id="radio_button">
+                        <input type="radio" id="radiobutton" name="radiobutton0" onClick="radiocolor('orange')" value="pink">
+                        <label >#005695</label>
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="radiobutton" id="radiobutton1" onClick="radiocolor('teal')" value="#1dbcbd">
+                        <label >#1dbcbd</label>
+                        <input type="radio" name="radiobutton" id="radiobutton2" onClick="radiocolor('slate')" value="#37474F">
+                        <label >#485B6E</label>
+                        &nbsp;&nbsp;&nbsp;
+                        <input name="radiobutton" type="radio" id="radiobutton3" onClick="radiocolor('lightblue')" value="#00B0FF">
+                        <label >#E65847</label>
 
-        <div id="wrapper2">
+                    </div>
+                    <div>
 
-
-
-            <p>Full Name</p>
-
-            <input id="firstname" type="text" autofocus />
-
-            <p2>Email</p2>
-            <input id="email" type="text" autofocus />
-
-
-            <p3>Password</p3>
-            <input id="password" type="text" autofocus />
-
-            <p4>Re-enter Password</p4>
-            <input id="passwordverification" type="text" autofocus />
-
-            <p5>Whats your favorite color?</p4>
-            <input type="radio" name="color" value="red">red
-            <input type="radio" name="color" value="blue">blue
-            <input type="radio" name="color" value="green">green
-            <input type="radio" name="color" value="plum">plum
-
-          </div>
-
-
-
-            <!--<text>Email</text>-->
-
-            <!--<input class="myText" type="text" autofocus />-->
-            <!--<p ></p>-->
-
-            <!--<text>Password</text>-->
-
-            <!--<input class="myText" type="text" autofocus />-->
-            <!--<p ></p>-->
-
-            <!--<text>Verify Password</text>-->
-
-            <!--<input class="myText" type="text" autofocus />-->
-            <!--<p ></p>-->
-
-
-
-        <button  class="buttons">SUBMIT</button>
-
-
+                    </div>
+                        <p id="submit" class="sign_user" onclick="validate_form_data()">SUBMIT</p>
+                </form>
+                <div id="message"></div>
+            </div>
+        </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="from.js"></script>
-  </body>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="form.js"></script>
+
+</body>
 </html>
